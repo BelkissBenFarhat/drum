@@ -1,12 +1,12 @@
 var numberOfButtons = document.querySelectorAll(".drum").length
 let keyMap = {
-    w: "crash.mp3",
-    a: "kick-bass.mp3",
-    s: "snare.mp3",
-    d: "tom-1.mp3",
-    j: "tom-2.mp3",
-    k: "tom-3.mp3",
-    l: "tom-4.mp3"
+    w: "sounds/crash.mp3",
+    a: "sounds/kick-bass.mp3",
+    s: "sounds/snare.mp3",
+    d: "sounds/tom-1.mp3",
+    j: "sounds/tom-2.mp3",
+    k: "sounds/tom-3.mp3",
+    l: "sounds/tom-4.mp3"
 }
 
 function playSoundFromLetter(key) {
